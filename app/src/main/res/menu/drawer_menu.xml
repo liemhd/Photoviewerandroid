@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/menuFavorite"
+            android:icon="@drawable/ic_favorite_white_24dp"
+            android:title="Favorite"/>
+        <item
+            android:id="@+id/menuSettting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Setting"/>
+        <item
+            android:id="@+id/menuAbout"
+            android:icon="@drawable/ic_about_black_24dp"
+            android:title="About"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/menuShare"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share App"/>
+        <item
+            android:id="@+id/menuRate"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Rate and Review"/>
+    </group>
+</menu>

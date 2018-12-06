@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name"> PhotoViewer</string>
+    <string name="facebook_app_id">186243245627189</string>
+    <string name="login_string">Login</string>
+    <string name="display">display</string>
+    <string-array name="viewDisplay">
+        <item>View List</item>
+        <item>View Grid</item>
+        <item>View Straggered</item>
+    </string-array>
+    <string-array name="viewDisplayValue">
+        <item>List</item>
+        <item>Grid</item>
+        <item>Straggered</item>
+    </string-array>
+</resources>

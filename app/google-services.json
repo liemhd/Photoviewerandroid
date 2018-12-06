@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "635470907765",
+    "firebase_url": "https://photoviewer-515c7.firebaseio.com",
+    "project_id": "photoviewer-515c7",
+    "storage_bucket": "photoviewer-515c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635470907765:android:dc4ae1359575d1f8",
+        "android_client_info": {
+          "package_name": "duyliem.photoviewer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635470907765-cav8n2p4ifeh86rllunl98qrk74879nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "duyliem.photoviewer",
+            "certificate_hash": "956a8a6c0550b390373cc6fa06fd7a7c0a32c17b"
+          }
+        },
+        {
+          "client_id": "635470907765-utkpn2qoanvefm3987lj15q3ilcsrgor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9N0iHF5czLkUtW-NNYuW3KQNKIqn7kbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635470907765-utkpn2qoanvefm3987lj15q3ilcsrgor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

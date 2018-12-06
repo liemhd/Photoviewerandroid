@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnSetWallpaper"
+        android:title="set wallpaper"></item>
+    <item
+        android:id="@+id/mnDetail"
+        android:title="detail" />
+    <item
+        android:id="@+id/mnShare"
+        android:title="share" />
+</menu>

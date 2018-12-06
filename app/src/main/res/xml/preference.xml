@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="View">
+        <ListPreference
+            android:entries="@array/viewDisplay"
+            android:entryValues="@array/viewDisplayValue"
+            android:key="key_display"
+            android:summary="Show Display"
+            android:title="Change the look" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

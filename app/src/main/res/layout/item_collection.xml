@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/Shimmer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/simmer_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#BBBBBB"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/default_image" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <ImageView
+            android:id="@+id/imvAlbum"
+            android:src="@mipmap/wallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvNameAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:text="City"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
